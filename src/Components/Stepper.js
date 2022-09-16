@@ -13,6 +13,7 @@ import Grid from '@material-ui/core/Grid';
 
 
 
+
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
 const tutorialSteps = [
@@ -47,6 +48,8 @@ const styles = theme => ({
   root: {
     maxWidth: 1300,
     flexGrow: 1,
+    marginTop: 60,
+    marginBottom: 60
   },
   header: {
     display: 'flex',
@@ -66,7 +69,9 @@ const styles = theme => ({
     display: 'grid',
     gridTemplateColumns: 'repeat(6, 2fr)',
     gridGap: `${theme.spacing.unit * 6}px`,
+    
   },
+  
   
   
 });
@@ -143,7 +148,7 @@ class SwipeableTextMobileStepper extends React.Component {
           </Grid>
           <Grid item xs={6}>
           <Paper className={classes.paper}></Paper>
-          <Typography component="h2" variant="h2" gutterBottom>
+          <Typography component="h4" variant="h4" gutterBottom>
         "Getting the job done has never been easier and simple"
       </Typography>
       </Grid>

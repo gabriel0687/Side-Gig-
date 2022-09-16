@@ -1,7 +1,8 @@
 import React from "react";
 import AppBar from "../Components/AppBar";
-import Howitworks from "../Components/Howitworks";
+import Users from "../Components/Users";
 import Stepper from "../Components/Stepper";
+import Contractors from "../Components/Contractors";
 
 const Main = () => (
 
@@ -11,7 +12,8 @@ const Main = () => (
 
             <AppBar />
             <Stepper />
-            <Howitworks />
+            <Users />
+            <Contractors />
 
         </React.Fragment>
     </div>

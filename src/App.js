@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Main from "./Pages/Main";
 import Login from "./Pages/Login";
 import Register from "./Pages/Register";
+import Search from "./Pages/Search";
 import './App.css';
 
 
@@ -18,6 +19,7 @@ const App = () => (
         <Route exact path="/Main" component={Main} />
         <Route exact path="/Login" component={Login} />
         <Route exact path="/Register" component={Register} />
+        <Route exact path="/Search" component={Search} />
 
 
 
